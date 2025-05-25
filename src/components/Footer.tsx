@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1 lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <img
-                src="/lovable-uploads/6fe61edd-5291-4a7c-ae2c-c7553d32a4b1.png"
+                src="/lovable-uploads/ac93d420-e076-483c-ba56-7f4742a4a881.png"
                 alt="RENAO ROBOTICS Logo"
                 className="h-8"
               />
