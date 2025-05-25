@@ -3,30 +3,30 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
-import { Bot, Zap, Shield, Award, ArrowRight } from 'lucide-react';
+import { Bot, Zap, Shield, Award, ArrowRight, Code } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
   const features = [
     {
-      icon: <Bot className="h-12 w-12 text-blue-600" />,
+      icon: <Code className="h-12 w-12 text-blue-600" />,
+      title: "Software Development",
+      description: "Custom software solutions, web applications, and embedded systems programming for diverse industry needs."
+    },
+    {
+      icon: <Bot className="h-12 w-12 text-green-600" />,
       title: "Industrial Robotics",
       description: "Advanced robotic machinery designed for industrial applications with precision and reliability."
     },
     {
       icon: <Zap className="h-12 w-12 text-yellow-600" />,
-      title: "Home Automation",
-      description: "Smart household appliances that make your daily life more convenient and efficient."
-    },
-    {
-      icon: <Shield className="h-12 w-12 text-green-600" />,
-      title: "Quality Assurance",
-      description: "Rigorous testing and quality control ensuring the highest standards in all our products."
+      title: "Automation Solutions",
+      description: "Smart automation systems and household appliances that make your daily life more convenient and efficient."
     },
     {
       icon: <Award className="h-12 w-12 text-purple-600" />,
-      title: "Affordable Solutions",
-      description: "Making cutting-edge robotics technology accessible and affordable for all Indians."
+      title: "Affordable Technology",
+      description: "Making cutting-edge software and robotics technology accessible and affordable for all Indians."
     }
   ];
 
@@ -43,7 +43,7 @@ const Index = () => {
               Why Choose RENAO ROBOTICS?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We combine innovation, affordability, and reliability to deliver world-class robotics solutions
+              We combine software innovation, hardware expertise, and affordability to deliver world-class technology solutions
             </p>
           </div>
           
@@ -69,12 +69,12 @@ const Index = () => {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">About RENAO ROBOTICS</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Established in 2023, RENAO ROBOTICS PRIVATE LIMITED is dedicated to designing, 
-                developing and manufacturing industrial robotic machinery as well as automated 
-                household appliances.
+                developing and manufacturing industrial robotic machinery, software solutions, 
+                and automated household appliances.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Our mission is to make robotics an affordable solution for all Indians through 
-                innovative technology and round-the-clock dedication.
+                Our mission is to make advanced technology and robotics an affordable solution for all Indians through 
+                innovative software development and round-the-clock dedication.
               </p>
               <Link
                 to="/about"
@@ -87,7 +87,7 @@ const Index = () => {
             <div>
               <img
                 src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop"
-                alt="Programming and Development"
+                alt="Software Development and Technology"
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -100,11 +100,11 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Specialties</h2>
-            <p className="text-xl text-gray-600">Comprehensive solutions across multiple domains</p>
+            <p className="text-xl text-gray-600">Comprehensive technology solutions across multiple domains</p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-            {["Robotics", "Automation", "Software Development", "3D Modelling", "3D Printing", "Embedded System", "Drives", "Manufacturing"].map((specialty, index) => (
+            {["Software Development", "Robotics", "Automation", "3D Modelling", "3D Printing", "Embedded System", "Drives", "Manufacturing"].map((specialty, index) => (
               <div key={index} className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4 rounded-lg text-center font-semibold">
                 {specialty}
               </div>
@@ -124,15 +124,15 @@ const Index = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="py-16 bg-blue-900 text-white">
+      <div className="py-16 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss your robotics and automation requirements
+          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            Contact us today to discuss your software development, robotics, and automation requirements
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-200"
+            className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200"
           >
             Contact Us Now
           </Link>

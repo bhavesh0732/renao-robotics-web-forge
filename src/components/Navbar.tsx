@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Bot, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -21,8 +21,11 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Bot className="h-8 w-8 text-blue-600" />
-              <span className="text-xl font-bold text-gray-900">RENAO ROBOTICS</span>
+              <img
+                src="/lovable-uploads/6fe61edd-5291-4a7c-ae2c-c7553d32a4b1.png"
+                alt="RENAO ROBOTICS Logo"
+                className="h-10"
+              />
             </Link>
           </div>
           

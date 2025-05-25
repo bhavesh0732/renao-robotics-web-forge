@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Bot, Mail, Phone, MapPin, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -10,12 +10,15 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Bot className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold">RENAO ROBOTICS</span>
+              <img
+                src="/lovable-uploads/6fe61edd-5291-4a7c-ae2c-c7553d32a4b1.png"
+                alt="RENAO ROBOTICS Logo"
+                className="h-8"
+              />
             </div>
             <p className="text-gray-300 mb-4">
-              Designing, developing and manufacturing industrial robotic machinery 
-              and automated household appliances since 2023.
+              Leading provider of advanced software solutions, industrial robotics, 
+              and automation systems since 2023.
             </p>
             <p className="text-sm text-gray-400">
               GSTIN: 03ABFFR9260H1Z4
