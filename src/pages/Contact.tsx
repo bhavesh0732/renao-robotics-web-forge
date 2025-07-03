@@ -82,6 +82,7 @@ const Contact = () => {
                   <p><strong>Website:</strong> www.renaorobotics.com</p>
                   <p><strong>Established:</strong> 2023</p>
                   <p><strong>Headquarters:</strong> Rupnagar, Punjab</p>
+                  <p><strong>Branch:</strong> Mansarovar, Jaipur</p>
                 </div>
               </div>
               <div>
@@ -89,7 +90,7 @@ const Contact = () => {
                 <div className="space-y-3 text-gray-600">
                   <p>ward 27,01,Mahavir Marg,Mansarovar,sector5</p>
                   <p>Mansarovar, Jaipur, Rajasthan 302020</p>
-                  <p><strong>Coordinates:</strong> 26°49'46.2"N 75°46'47.2"E</p>
+                  <p><strong>Coordinates:</strong> 26°51'28.0"N 75°46'24.1"E</p>
                 </div>
               </div>
             </div>
