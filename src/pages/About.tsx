@@ -196,7 +196,7 @@ const About = () => {
                 <MapPin className="h-5 w-5 text-blue-600 mt-1" />
                 <div>
                   <p className="text-gray-600">
-                   ward 27,01,Mahavir Marg,Mansarovar,sector5,<br />
+                   ward 27,01,Mahavir Marg,Mansarovar,sector5<br />
                     Mansarovar, Jaipur, Rajasthan 302020
                   </p>
                 </div>
