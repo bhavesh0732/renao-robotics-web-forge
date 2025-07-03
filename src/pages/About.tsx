@@ -7,23 +7,27 @@ import { Users, MapPin, Calendar, Target, Phone, User } from 'lucide-react';
 const About = () => {
   const teamMembers = [
     {
-      name: "Amit Kumar",
+      name: "Tanveer singh Cheema",
       role: "Founder",
-      phone: "+91 8168158446",
+      phone: "+91 9878555767",
       icon: <User className="h-6 w-6" />
     },
     {
-      name: "Guru Pratap Singh Sidhu",
+      name: "Viany Jain",
       role: "Manager",
-      phone: "9024919724",
+      phone: "+91 6376763870",
+      icon: <Users className="h-6 w-6" />
+    },
+    {
+      name: "Gurupratap Singh Sidhu",
+      role: " Assitant Manager",
+      phone: "+91 9024919724",
       icon: <Users className="h-6 w-6" />
     }
   ];
 
-  const coAssistants = [
-    { name: "Bhavesh Paliwal", phone: "8875190510" },
-    { name: "Abhinav Mehta", phone: "9521179009" },
-    { name: "Dishan Khandal", phone: "6376556545" }
+  const Tariningcoordinator = [
+    { name: "Hiamsnhu Soni", phone: "9530308448" },
   ];
 
   const specialties = [
@@ -192,13 +196,13 @@ const About = () => {
                 <MapPin className="h-5 w-5 text-blue-600 mt-1" />
                 <div>
                   <p className="text-gray-600">
-                    19-20 Khatri Nagar, near Ricco Pulia,<br />
+                   ward 27,01,Mahavir Marg,Mansarovar,sector5,<br />
                     Mansarovar, Jaipur, Rajasthan 302020
                   </p>
                 </div>
               </div>
               <p className="text-sm text-gray-500">
-                Coordinates: 26°49'46.2"N 75°46'47.2"E
+                Coordinates: 26°51'28.0"N 75°46'24.1"E
               </p>
             </div>
           </div>
