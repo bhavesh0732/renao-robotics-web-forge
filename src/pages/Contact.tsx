@@ -15,8 +15,8 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: "+91 8168158446",
-      link: "tel:+918168158446"
+      details: "+916376763870",
+      link: "tel:+916376763870"
     },
     {
       icon: <MapPin className="h-6 w-6" />,
@@ -87,7 +87,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Branch Office</h3>
                 <div className="space-y-3 text-gray-600">
-                  <p>19-20 Khatri Nagar, near Ricco Pulia</p>
+                  <p>ward 27,01,Mahavir Marg,Mansarovar,sector5</p>
                   <p>Mansarovar, Jaipur, Rajasthan 302020</p>
                   <p><strong>Coordinates:</strong> 26°49'46.2"N 75°46'47.2"E</p>
                 </div>
