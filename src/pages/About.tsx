@@ -26,8 +26,10 @@ const About = () => {
     }
   ];
 
-  const Tariningcoordinator = [
-    { name: "Hiamsnhu Soni", phone: "9530308448" },
+  const coAssistants = [
+    { name: "Bhavesh Paliwal", phone: "8875190510" },
+    { name: "Abhinav Mehta", phone: "9521179009" },
+    { name: "Dishan Khandal", phone: "6376556545" },
   ];
 
   const specialties = [
